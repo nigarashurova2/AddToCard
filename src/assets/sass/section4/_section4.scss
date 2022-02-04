@@ -1,0 +1,447 @@
+.section4{
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    .title{
+        margin-bottom: 25px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background-color: red;
+        }
+        h4{
+            padding-left: 40px;
+            
+        }
+    }
+}
+
+
+.slider-section6.slide1 {
+    .slick-prev {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: -9% !important;
+        left: 92% !important ;
+        display: block;
+        width: 20px !important;
+        height: 20px !important;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        &::before{
+                font-family: 'slick';
+                font-size: 30px;
+                line-height: 1;
+                opacity: .85;
+                color: rgb(219, 23, 23);
+        }
+    }
+
+    .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: -9% !important;
+        right: 0 !important;
+        display: block;
+        width: 20px !important;
+        height: 20px !important;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        &::before{
+                font-family: 'slick';
+                font-size: 30px;
+                line-height: 1;
+                opacity: .85;
+                color: rgb(219, 23, 23);
+        }
+    }
+}
+
+.slider-section6.slide2 {
+    .slick-prev {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: -9% !important;
+        left: 83% !important ;
+        display: block;
+        width: 20px !important;
+        height: 20px !important;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        &::before{
+                font-family: 'slick';
+                font-size: 30px;
+                line-height: 1;
+                opacity: .85;
+                color: rgb(219, 23, 23);
+        }
+    }
+
+    .slick-next {
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        top: -9% !important;
+        right: 0 !important;
+        display: block;
+        width: 20px !important;
+        height: 20px !important;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: transparent;
+        &::before{
+                font-family: 'slick';
+                font-size: 30px;
+                line-height: 1;
+                opacity: .85;
+                color: rgb(219, 23, 23);
+        }
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .slider-section6.slide1 {
+        margin-bottom: 40px;
+        .slick-prev {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            left: 90% !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+    
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            right: 0 !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+
+        .slider-section6.slide2 {
+            .slick-prev {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: -9% !important;
+                left: 80% !important ;
+                display: block;
+                width: 20px !important;
+                height: 20px !important;
+                padding: 0;
+                transform: translate(0, -50%);
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background: transparent;
+                &::before{
+                        font-family: 'slick';
+                        font-size: 30px;
+                        line-height: 1;
+                        opacity: .85;
+                        color: rgb(219, 23, 23);
+                }
+            }
+        
+            .slick-next {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: -9% !important;
+                right: 0 !important;
+                display: block;
+                width: 20px !important;
+                height: 20px !important;
+                padding: 0;
+                transform: translate(0, -50%);
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background: transparent;
+                &::before{
+                        font-family: 'slick';
+                        font-size: 30px;
+                        line-height: 1;
+                        opacity: .85;
+                        color: rgb(219, 23, 23);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .slider-section6.slide1 {
+        margin-bottom: 40px;
+        .slick-prev {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            left: 86% !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+    
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            right: 0 !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }.slider-section6.slide2 {
+            .slick-prev {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: -9% !important;
+                left: 78% !important ;
+                display: block;
+                width: 20px !important;
+                height: 20px !important;
+                padding: 0;
+                transform: translate(0, -50%);
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background: transparent;
+                &::before{
+                        font-family: 'slick';
+                        font-size: 30px;
+                        line-height: 1;
+                        opacity: .85;
+                        color: rgb(219, 23, 23);
+                }
+            }
+        
+            .slick-next {
+                font-size: 0;
+                line-height: 0;
+                position: absolute;
+                top: -9% !important;
+                right: 0 !important;
+                display: block;
+                width: 20px !important;
+                height: 20px !important;
+                padding: 0;
+                transform: translate(0, -50%);
+                cursor: pointer;
+                color: transparent;
+                border: none;
+                outline: none;
+                background: transparent;
+                &::before{
+                        font-family: 'slick';
+                        font-size: 30px;
+                        line-height: 1;
+                        opacity: .85;
+                        color: rgb(219, 23, 23);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider-section6.slide1 {
+        margin-bottom: 40px;
+        .slick-prev {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            left: 86% !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+    
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            right: 0 !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+        
+    }
+
+    .slider-section6.slide2 {
+        .slick-prev {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            left: 90% !important ;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+    
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: -9% !important;
+            right: 0 !important;
+            display: block;
+            width: 20px !important;
+            height: 20px !important;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            &::before{
+                    font-family: 'slick';
+                    font-size: 30px;
+                    line-height: 1;
+                    opacity: .85;
+                    color: rgb(219, 23, 23);
+            }
+        }
+    }
+}

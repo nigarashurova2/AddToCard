@@ -1,0 +1,47 @@
+.section7{
+    padding: 40px 0 50px;
+    background-color: #f7f7f7;
+    
+}
+@media screen and (max-width: 992px) {
+    .section7{
+        .container{
+            .row{
+                display: flex;
+                justify-content: center !important;
+                .col{
+                    display: block;
+                    text-align: center;
+                    &:nth-child(5){
+                        display: none;
+                    }
+                    &:nth-child(6){
+                        display: none;
+                    }
+                }
+            }
+            
+        }
+    }
+   }
+
+
+   @media screen and (max-width: 768px) {
+    .section7{
+        .container{
+            max-width: 95%;
+            .row{
+                display: flex;
+                justify-content: center !important;
+                .col{
+                    display: none;
+                    text-align: center;
+                    &:nth-child(odd){
+                        display: block;
+                    }
+                }
+            }
+            
+        }
+    }
+   }

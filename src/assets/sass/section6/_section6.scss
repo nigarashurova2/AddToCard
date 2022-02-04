@@ -1,0 +1,22 @@
+
+.section6{
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    .title{
+        margin-bottom: 25px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background-color: red;
+        }
+        h3{
+            padding-left: 40px;
+            
+        }
+    }
+}
